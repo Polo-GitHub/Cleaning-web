@@ -4,7 +4,7 @@
   --light-black: #0A2323;
   --red: #ce1111;
   --pink: #dd2a7b;
-  --blue: #1e21aa;
+  --blue: #1851f4;
   --darkblue: #143151;
   --sykblue: #01aed6;
   --darkb: #036981;
@@ -464,7 +464,7 @@ label{
   font-size: 0.6rem;
   color: var(--sykblue);
 }
-.know__us{
+.know__us-btn{
   display: flex;
   font-family: var(--font-1);
   font-size: 1.2rem;
@@ -475,7 +475,7 @@ label{
   border-radius: 30px;
   color: var(--white);
 }
-.know__us:hover{
+.know__us-btn:hover{
   background-color: transparent;
   color: var(--light-black);
   border:1px solid var(--light-black);
@@ -582,13 +582,10 @@ footer{
   font-size: 1.2rem;
 }
 .footer__list-icons li:hover{
-  color: var(--sykblue);
+  color: var(--blue);
 }
 .footer__list-icons li:hover:nth-child(1){
   color: var(--pink);
-}
-.footer__list-icons li:hover:nth-child(2){
-  color: var(--blue);
 }
 .footer__list-icons li:hover:nth-child(3){
   color: var(--red);
