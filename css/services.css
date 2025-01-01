@@ -1,0 +1,55 @@
+:root {
+    --white: #fff;
+    --black: #0f0f28;
+    --light-black: #0A2323;
+    --red: #ce1111;
+    --pink: #dd2a7b;
+    --blue: #1e21aa;
+    --darkblue: #143151;
+    --sykblue: #01aed6;
+    --darkb: #036981;
+    --green: #09dba0;
+    --bg: #f9fafc;
+    --grey: #f3f3f3;
+    --yellow:#f6e948;
+    --orange: orangered;
+    --font-1: "Open Sans", sans-serif;
+    --font-2: "Rajdhani", serif;
+    --font-3: "Dancing Script", cursive;
+    --font-4: "Sacramento", serif;
+    --font-5: "Montserrat", serif;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    transition: all 0.25s ease-in-out;
+    color: inherit;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .service__wrapper{
+    display: flex;
+    gap: 0.2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12rem auto 0;
+    max-width: 1000px;
+  }
+  .service__heading{
+    font-family: var(--font-2);
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: var(--light-black);
+  }
+  .service__subheading{
+    font-family: var(--font-1);
+    font-size: 1.1rem;
+    color: var(--light-black);
+  }
