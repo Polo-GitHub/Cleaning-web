@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cleaning Company</title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,39 +17,43 @@
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="./css/chatgbt.css">
-  <script defer src="./script/chatgbt.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/services.css">
+  <script defer src="./script/script.js"></script>
 </head>
-
 <body>
-  
-    <section class="container"> 
-      <header class="header">
-        <a href="index.html" class="header__logo">
-          <img src="./images/cleaning-service-logo-.png" alt="cleaning-service-logo-.png" class="header__img">
-        </a>
-        <ul class="header__navbar">
-          <li><a href="index.html">Home</a></li>
-          <li>
-            <a href="services.html" class="active">Services</a>
-            <div class="header__dropdown">
-              <a href="">Deep Cleaning</a>
-              <a href="">Furniture Cleaning</a>
-              <a href="">Window Cleaning</a>
-              <a href="">Move In/Move Out</a>
-            </div>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="about.html">About</a></li>
-          <div class="header__user" ><a href="">Log In</a>
-            <i class="fa fa-user user__icon"></i>
+    <!-------------------------- Header section -------------------------->
+    <header class="header">
+      <a href="index.html" class="header__logo">
+        <img src="./images/cleaning-service-logo-.png" alt="cleaning-service-logo-.png" class="header__img">
+      </a>
+      <ul class="header__navbar">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li>
+          <a href="./lo.html">Services</a>
+          <div class="header__dropdown">
+            <a href="">Deep Cleaning</a>
+            <a href="">Furniture Cleaning</a>
+            <a href="">Window Cleaning</a>
+            <a href="">Move In/Move Out</a>
           </div>
-        </ul>
-        <div class="header__menu"><i class="fa fa-bars"></i></div>
-      </header>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <a href="./login.html" class="header__user"><span>Log In</span>
+            <i class="fa fa-user user__icon"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="header__menu"><i class="fa fa-bars"></i></div>
+    </header>
+    <section class="services__container">
+      <div class="service__wrapper">
+        <h1 class="service__heading">Our Services</h1>
+        <p class="service__subheading">What can we clean for your today</p>
+
+      </div>
     </section>
-
-
-</body>
-
-</html>
+   </body>
+   </html>
