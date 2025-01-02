@@ -36,7 +36,7 @@
   /* <!---------------------------- Our services section -----------------------> */
 
   .services__container{
-    background-color: var(--bg);
+    background-color: var(--grey);
     padding: 12rem 3rem 4em ;
   }
   .service__wrapper{
@@ -119,3 +119,105 @@
     display: flex;
     gap: 10rem;
   }
+  /* <!----------------------------------------------- About section --------------------------------------------> */
+  .about__container{
+  background-color: var(--grey);
+  padding: 12rem 3rem 4em ;
+   
+  }
+.about__wrapper{
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about__heading{
+  font-family: var(--font-2);
+  font-size: 3.5rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  color: var(--light-black);
+}
+.about__text, .about__subtext{
+  font-family: var(--font-1);
+  font-size: 1.1rem;
+  color: var(--light-black);
+}
+.about__backdrop-video{
+  width: 100%;
+  padding-top: 2rem;
+ 
+}
+.backdrop-video{
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+.about__title-image{
+  padding-top: 5rem;
+}
+.about__write-up{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+.about__img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.about__heading-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about__heading-text{
+  font-family: var(--font-2);
+  font-size: 3.5rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  color: var(--light-black);
+}
+.about__paragraph{
+  font-family: var(--font-5);
+  max-width: 470px;
+}
+/* <!----------------------------------------------- Team section --------------------------------------------> */
+.team__container{
+}
+.stellar__heading{
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-2);
+  font-size: 3rem;
+  font-weight: 500;
+  padding-top: 8rem;
+}
+.stellarteam__wrapper{
+  display: flex;
+}
+.stellar__title{
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+}
+.stellar__teamdetails{}
+.stellar__name{
+  font-family: var(--font-2);
+  font-size: 1.4rem;
+  color: var(--light-black);
+}
+.stellar__position{
+  font-family: var(--font-5);
+  font-size: 1rem;
+}
+.stellar__paragraph{
+  font-family: var(--font-5);
+  font-size: 1rem;
+  color: var(--light-black);
+}
+.stellar__img{
+  width: 250px;
+  height: auto;
+}
